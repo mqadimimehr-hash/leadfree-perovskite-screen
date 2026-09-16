@@ -1,0 +1,14 @@
+# band_gap values (eV) are APPROXIMATE literature-ballpark values for illustration only; verify against primary sources before use.
+formula,band_gap
+CsSnI3,1.3
+MASnI3,1.3
+FASnI3,1.4
+CsSnBr3,1.75
+CsGeI3,1.6
+Cs2AgBiBr6,2.0
+Cs2AgBiCl6,2.7
+Cs3Sb2I9,2.05
+Cs3Bi2I9,2.1
+MA3Bi2I9,2.1
+MAPbI3,1.6
+CsPbI3,1.7
