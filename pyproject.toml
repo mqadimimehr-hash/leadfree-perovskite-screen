@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leadfree-perovskite-screen"
+version = "0.1.0"
+description = "Screen lead-free perovskite and perovskite-inspired absorbers for outdoor and indoor photovoltaics"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohammad Ghadimimehr" }]
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas"]
+keywords = ["perovskite", "photovoltaics", "indoor PV", "materials screening", "tolerance factor"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.optional-dependencies]
+mp = ["mp-api"]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/mqadimimehr-hash/leadfree-perovskite-screen"
+
+[project.scripts]
+lfscreen = "lfscreen.cli:main"
+
+[tool.setuptools]
+packages = ["lfscreen"]
